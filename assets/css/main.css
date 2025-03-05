@@ -3343,7 +3343,6 @@ input, select, textarea {
 			#two {
 				text-align: center;
 			}
-
 	}
 
 /* Small */
@@ -3527,4 +3526,12 @@ input, select, textarea {
 
 #one .major {
 	margin: 0;
+}
+
+@media (max-width: 1680px) {
+	/* Five */
+
+	#five {
+		padding: 1rem;
+	}
 }
