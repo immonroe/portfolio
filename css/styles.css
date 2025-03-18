@@ -3962,7 +3962,7 @@ td:last-child {
     flex    : none;
     width   : 50%;
     margin  : 0;
-    padding : 0;
+    padding : 1rem;
     overflow: hidden;
     position: relative;
 }
@@ -4130,12 +4130,15 @@ td:last-child {
     .s-testimonials__cite {
         text-align: left;
     }
-}
-
-@media screen and (max-width: 500px) {
     .folio-entries .entry {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 500px) {
+    /* .folio-entries .entry {
+        width: 100%;
+    } */
 }
 
 
