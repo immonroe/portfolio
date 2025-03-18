@@ -831,11 +831,13 @@ table {
         width        : 100%;
         padding-left : 6vw;
         padding-right: 6vw;
+        
     }
 
     .row .row {
         padding-left : 0;
         padding-right: 0;
+        
     }
 
     .mob-1 {
@@ -4207,6 +4209,7 @@ td:last-child {
     padding-top     : var(--vspace-6);
     padding-bottom  : var(--bottom-padding);
     color           : var(--color-gray-15);
+    text-align: center;
 }
 
 .s-footer h5 {
